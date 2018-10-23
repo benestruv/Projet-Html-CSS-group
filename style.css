@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Comfortaa-Regular';
+    src: url('assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+.needanevents{
+    font-family: 'Comfortaa-Regular', sans-serif;
+}
+
+.footer{
+    background-image: url(assets/images/swirl_pattern.png);
+    background-repeat: repeat-x;
+}
+
+.footer h1{
+    font-family: 'Comfortaa-Regular', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
