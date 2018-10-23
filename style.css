@@ -2,18 +2,62 @@
     font-family: 'Comfortaa-Regular';
     src: url('assets/fonts/Comfortaa-Regular.ttf') format('truetype');
 }
-.needanevents{
+
+#needanevents{
     font-family: 'Comfortaa-Regular', sans-serif;
+    width: 1440px;
+    
+}
+.heading-event{
+    display: flex;
+    justify-content: flex-start;
 }
 
-.footer{
+.footer-container{
     background-image: url(assets/images/swirl_pattern.png);
     background-repeat: repeat-x;
+    width: 1440px;
 }
 
-.footer h1{
+
+.row-footer img{
+    margin-right: 15px;
+}
+
+.footer-container h2{
     font-family: 'Comfortaa-Regular', sans-serif;
     text-align: center;
     padding-top: 50px;
+}
+
+.formulaire input{
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.formulaire textarea{
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 1px;
+    resize: none;
+
+}
+
+.submit{
+    width: 7em;
+    height: 3em;
+    background-color: white;
+    color: brown;
+    font-family: 'Comfortaa-Regular', sans-serif;
+    font-weight: bold;
+    
+}
+
+.submit:hover{
+    background-color: brown;
+    color: white;
 }
 
