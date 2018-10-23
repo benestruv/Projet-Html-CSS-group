@@ -1,0 +1,25 @@
+@font-face { 
+    font-family:'Comfortaa-Regular'; 
+    src: url ('assets/fonts/Comfortaa-Regular.ttf'); 
+}
+
+h2{
+    font-family: 'Comfortaa-Regular', Arial, Serif;
+    color:red;
+
+}
+#our-events{
+    display: flex;
+    justify-content: space-around;
+    
+}
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.organisation{
+    height:100px;
+    width: 50px;
+    border:2px solid black;
+    background-color: brown;
+}
