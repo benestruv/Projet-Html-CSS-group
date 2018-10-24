@@ -1,25 +1,56 @@
-@font-face { 
-    font-family:'Comfortaa-Regular'; 
-    src: url ('assets/fonts/Comfortaa-Regular.ttf'); 
-}
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('assets/fonts/Comfortaa-Regular.ttf');
+    }
+    body{
+        font-family: 'Comfortaa-Regular', Arial, serif;
+      
+    }
 
-h2{
-    font-family: 'Comfortaa-Regular', Arial, Serif;
-    color:red;
 
-}
 #our-events{
     display: flex;
     justify-content: space-around;
-    
+    margin: 0 auto;
+    width: 960px;
+}
+#titre-principal{
+    font-size: 7vh;
+    text-decoration: brown underline;
 }
 section{
+    
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    width: 960px;
+
 }
 .organisation{
-    height:100px;
-    width: 50px;
-    border:2px solid black;
+    height:300px;
+    width: 250px;
+    box-shadow: 0.5px 10px 20px 1px  rgb(90, 90, 90);
+    margin-top: 50px;
+}
+
+.titre{
     background-color: brown;
+    color:white;
+    margin:0px;
+}
+.date-up{
+    color:rgb(23, 190, 200);
+}
+.date-down{
+    font-weight: bold;
+}
+.titre2{
+
+}
+.texte{
+
+}
+#hello{
+  
 }
