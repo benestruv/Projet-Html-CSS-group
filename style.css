@@ -1,0 +1,118 @@
+body {
+        font-family: Arial, serif;
+        font-size: 1em;
+    }
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('assets/fonts/Comfortaa-Regular.ttf');
+    }
+
+h2 {   
+    font-family: 'Comfortaa-Regular', Arial, serif;
+    font-size: 2.5em;
+    font-weight: lighter;
+    }
+
+/* SECTION WHO WE ARE*/
+/*Définit la couleur, la taille, et l'emplacement du paragraphe*/
+#textewhoweare {color: #ACACAC;
+    font-size: 1.1em;
+    padding-top: 250px;}
+
+/* Definit la largeur des sections, les centre, et les espace, et les définit comme relative*/
+#whoweare, #ourteam {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+    }
+
+/*Image*/
+#whoweare #containimg {
+    float: left;
+    margin-right: 50px;
+}
+
+/*Petit encart rouge flottant*/
+.bestpeople {
+    position: absolute;
+    display: block;
+    background-color: #B40000;
+    font-size: 1.1em;
+    color : white;
+    padding: 3px;
+    border: 3px solid white;
+    width: 165px;
+    height: 45px;
+    left: -50px;
+    top: 15px;
+    }
+
+/*Titre*/
+#whoweare h2 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 445px;
+}
+
+
+/*Soulignement du texte*/
+#underline {
+    position: absolute;
+    height: 5px;
+    width: 250px;
+    background-color:#af0102;
+    left: 445px;
+    top: 120px;
+    }
+
+/* SECTION OUR TEAM */
+#ourteam {position:relative;}
+
+#ourteam h2 {
+    text-align: center;
+    }
+
+/*Soulignement du texte*/
+#underlineourteam {
+    position: absolute;
+    height: 3px;
+    width: 220px;
+    background-color:#af0102;
+    top: 50px;
+    left: 370px;
+    }
+
+/* Equipe contient les div des diff membres du staff*/
+#equipe {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+/*définit la largeur des div d'équipe à 385, si exède, passe a la ligne*/
+#equipe>* {
+        flex: 1 1 385px;
+    }
+
+/*Style des noms des membres de la team*/
+h3 {background-color: #af0102;
+    color: white;
+    width: 55px;
+    height: 20px;
+    font-size: 0.9em;
+    font-weight: light;
+    margin-left: 120px;
+    text-align: center;
+    }
+
+/* Fait flotter les portraits de la team*/
+#equipe img {float: left;}
+
+/*Définit la couleur du texte et sa taille*/
+#equipe p {
+    color: #ACACAC;
+    font-size: 0.8em;
+    }
+/*Espace entre les membres de l'équipe*/
+#ceo, #coo, #cfo, #cto {margin-right: 15px;}
