@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* Section HEADER : Andy krause */
 
@@ -246,3 +247,118 @@ section{
   top: 100px;
 
 }
+=======
+/* GENERAL */
+
+@font-face{
+    font-family: 'Comfortaa-Regular';
+    src: url('assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+
+section{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/* NEED AN EVENT */
+#needanevents{
+    font-family: 'Comfortaa-Regular', sans-serif;
+    
+}
+.heading-event{
+    padding-left: 150px;
+    padding-bottom: 45px;
+}
+
+.formulaire{
+    font-family: 'Comfortaa-Regular', sans-serif;
+}
+
+.formulaire input{
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.formulaire textarea{
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 1px;
+    resize: none;
+    width: 400px;
+    margin-top: 5px;
+
+}
+
+.form-container{
+    width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-container input{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+.form-item{
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.submit{
+    width: 7em;
+    height: 3em;
+    background-color: white;
+    color: brown;
+    font-family: 'Comfortaa-Regular', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-left: 25px;
+    
+}
+
+.submit:hover{
+    background-color: brown;
+    color: white;
+}
+
+.red-divider{
+    width: 185px;
+    height: 2px;
+    background: brown;
+    margin-top: -15px;
+}
+
+
+
+
+/* FOOTER */
+
+.footer-container{
+    background-image: url(assets/images/swirl_pattern.png);
+    background-repeat: repeat-x;
+    height: 200px;
+}
+
+.footer-container h2{
+    font-family: 'Comfortaa-Regular', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.img-footer img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+>>>>>>> Steve
