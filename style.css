@@ -1,14 +1,13 @@
-<<<<<<< HEAD
 
 /* Section HEADER : Andy krause */
 
 @font-face{ 
-    font-family: 'Cinzel'; 
+    font-family: 'Comfortaa-Regular'; 
     src: url(assets/fonts/Comfortaa-Regular.ttf); 
 }
 body{
     
-    font-family: Cinzel;
+    font-family: 'Comfortaa-Regular';
     margin: 0;
     padding: 0;
 }
@@ -29,7 +28,6 @@ body{
 li{
     margin-left: 20px;
     display:inline;
-    width: 100px;
 }
 a{
     text-decoration: none;
@@ -43,7 +41,7 @@ header{
     ),
     url(./assets/images/header_Background.jpg);
     background-repeat: no-repeat;
-    height:77vh;
+    height:60vh;
 }
 .img_background{
     max-width: 100%;
@@ -72,10 +70,6 @@ body {
         font-size: 1em;
     }
 
-@font-face {
-    font-family: 'Comfortaa-Regular';
-    src: url('assets/fonts/Comfortaa-Regular.ttf');
-    }
 
 h2 {   
     font-family: 'Comfortaa-Regular', Arial, serif;
@@ -85,7 +79,9 @@ h2 {
 
 /* SECTION WHO WE ARE*/
 /*Définit la couleur, la taille, et l'emplacement du paragraphe*/
-#textewhoweare {color: #ACACAC;
+#textewhoweare {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ACACAC;
     font-size: 1.1em;
     padding-top: 250px;}
 
@@ -105,6 +101,7 @@ h2 {
 
 /*Petit encart rouge flottant*/
 .bestpeople {
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     display: block;
     background-color: #B40000;
@@ -165,14 +162,17 @@ h2 {
     }
 
 /*Style des noms des membres de la team*/
-h3 {background-color: #af0102;
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #af0102;
     color: white;
     width: 55px;
     height: 20px;
     font-size: 0.9em;
-    font-weight: light;
+    font-weight: lighter;
     margin-left: 120px;
     text-align: center;
+    padding-top: 4px;
     }
 
 /* Fait flotter les portraits de la team*/
@@ -180,8 +180,9 @@ h3 {background-color: #af0102;
 
 /*Définit la couleur du texte et sa taille*/
 #equipe p {
+    font-family: Arial, Helvetica, sans-serif;
     color: #ACACAC;
-    font-size: 0.8em;
+    font-size: 1em;
     }
 /*Espace entre les membres de l'équipe*/
 #ceo, #coo, #cfo, #cto {margin-right: 15px;}
@@ -198,9 +199,10 @@ h3 {background-color: #af0102;
     margin: 0 auto;
     width: 960px;
     position: relative;
+    margin-top: 150px;
 }
 #titre-principal{
-    font-size: 6vh;
+    font-size: 3em;
    /* text-decoration: brown underline;*/
 }
 section{
@@ -220,9 +222,11 @@ section{
 }
 
 .titre{
+    font-size: 1.5em;
     background-color: brown;
     color:white;
     margin:0px;
+    padding: 3px;
 }
 .date-up{
     color:rgb(23, 190, 200);
@@ -247,13 +251,8 @@ section{
   top: 100px;
 
 }
-=======
 /* GENERAL */
 
-@font-face{
-    font-family: 'Comfortaa-Regular';
-    src: url('assets/fonts/Comfortaa-Regular.ttf') format('truetype');
-}
 
 section{
     width: 960px;
@@ -265,6 +264,7 @@ section{
 /* NEED AN EVENT */
 #needanevents{
     font-family: 'Comfortaa-Regular', sans-serif;
+    margin-top: 150px;
     
 }
 .heading-event{
@@ -361,4 +361,3 @@ section{
     margin-right: 10px;
     margin-left: 10px;
 }
->>>>>>> Steve
