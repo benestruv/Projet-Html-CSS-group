@@ -65,7 +65,7 @@ header{
 }
 
 
-/************************************/
+/* code béné*/
 body {
         font-family: Arial, serif;
         font-size: 1em;
@@ -184,3 +184,65 @@ h3 {background-color: #af0102;
     }
 /*Espace entre les membres de l'équipe*/
 #ceo, #coo, #cfo, #cto {margin-right: 15px;}
+    body{
+        font-family: 'Comfortaa-Regular', Arial, serif;
+      
+    }
+    
+/*-----------------------oli-----------------*/
+
+#our-events{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+}
+#titre-principal{
+    font-size: 6vh;
+   /* text-decoration: brown underline;*/
+}
+section{
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+    width: 960px;
+
+}
+.organisation{
+    height:300px;
+    width: 250px;
+    box-shadow: 0.5px 10px 20px 1px  rgb(90, 90, 90);
+    margin-top: 50px;
+}
+
+.titre{
+    background-color: brown;
+    color:white;
+    margin:0px;
+}
+.date-up{
+    color:rgb(23, 190, 200);
+}
+.date-down{
+    font-weight: bold;
+}
+.titre2{
+
+}
+.texte-ipsum{
+
+}
+#hello{
+  
+}
+#under-line{
+  background-color: brown;
+  height: 4px;
+  width: 235px;
+  position: absolute;
+  top: 100px;
+
+}
